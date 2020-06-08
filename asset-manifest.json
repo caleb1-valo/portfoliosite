@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfoliosite/static/css/main.a3c8a7b0.chunk.css",
-    "main.js": "/portfoliosite/static/js/main.e68cc85d.chunk.js",
-    "main.js.map": "/portfoliosite/static/js/main.e68cc85d.chunk.js.map",
-    "runtime-main.js": "/portfoliosite/static/js/runtime-main.d00891df.js",
-    "runtime-main.js.map": "/portfoliosite/static/js/runtime-main.d00891df.js.map",
-    "static/js/2.bb477439.chunk.js": "/portfoliosite/static/js/2.bb477439.chunk.js",
-    "static/js/2.bb477439.chunk.js.map": "/portfoliosite/static/js/2.bb477439.chunk.js.map",
-    "index.html": "/portfoliosite/index.html",
-    "precache-manifest.024eb6052887d2f5ec01282bed16e37f.js": "/portfoliosite/precache-manifest.024eb6052887d2f5ec01282bed16e37f.js",
-    "service-worker.js": "/portfoliosite/service-worker.js",
-    "static/css/main.a3c8a7b0.chunk.css.map": "/portfoliosite/static/css/main.a3c8a7b0.chunk.css.map",
-    "static/js/2.bb477439.chunk.js.LICENSE.txt": "/portfoliosite/static/js/2.bb477439.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/portfoliosite/static/media/plain-white-background.50e97f47.jpg",
-    "static/media/valosky.jpg": "/portfoliosite/static/media/valosky.3e2772f1.jpg"
+    "main.css": "/static/css/main.782423f7.chunk.css",
+    "main.js": "/static/js/main.29f570ad.chunk.js",
+    "main.js.map": "/static/js/main.29f570ad.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.07387012.js",
+    "runtime-main.js.map": "/static/js/runtime-main.07387012.js.map",
+    "static/js/2.bb477439.chunk.js": "/static/js/2.bb477439.chunk.js",
+    "static/js/2.bb477439.chunk.js.map": "/static/js/2.bb477439.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.153b25f765bf9dc7f0626f211245efea.js": "/precache-manifest.153b25f765bf9dc7f0626f211245efea.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.782423f7.chunk.css.map": "/static/css/main.782423f7.chunk.css.map",
+    "static/js/2.bb477439.chunk.js.LICENSE.txt": "/static/js/2.bb477439.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/plain-white-background.50e97f47.jpg",
+    "static/media/valosky.jpg": "/static/media/valosky.3e2772f1.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d00891df.js",
+    "static/js/runtime-main.07387012.js",
     "static/js/2.bb477439.chunk.js",
-    "static/css/main.a3c8a7b0.chunk.css",
-    "static/js/main.e68cc85d.chunk.js"
+    "static/css/main.782423f7.chunk.css",
+    "static/js/main.29f570ad.chunk.js"
   ]
 }
