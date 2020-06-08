@@ -1,0 +1,480 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0 auto;
+  font-family: "Arbutus Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.headers ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0px;
+  max-height: 500px;
+}
+.headers li{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: x-large;
+  font-weight: 450;
+}
+.headers a:link{
+  text-decoration: none;
+  color: lightskyblue;
+}
+.headers a:visited{
+  color: lightskyblue;
+}
+.headers a:hover{
+  font-size: xx-large;
+}
+.headers a:active{
+ color: aqua;
+}
+.headers ul:hover{
+  background-color: white;
+}
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  background-color:white;}
+.home {
+  text-transform: capitalize;
+  font-size: larger;
+  color: lightskyblue;
+  padding-left: 80px;
+  padding-top: 150px;
+}
+#heading{
+  font-size: 40px;
+  font-weight: 700;
+}
+.homepage{
+  background-image: url('images/front\ end.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 850px;
+}
+.services h1{
+  text-transform: capitalize;
+  color: lightskyblue;
+  text-align: center;
+}
+.developer{
+  background-image: url('images/plain-white-background.jpg');
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 5px 5px whitesmoke;
+  max-width:650px;
+  height: 195px;
+}
+.developer:hover{
+  background-image: url('images/plain-white-background.jpg');
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 10px 10px whitesmoke;
+  position: relative;
+  top: 18px;
+  left: 75px;
+  max-width: 645px;
+}
+.developer {
+  position: relative;
+  top: 15px;
+  left: 70px;
+}
+.developer h3{
+  padding-top: 10px;
+  padding-left: 40px;
+}
+.developer p{
+  padding-top: 10px;
+  padding-left: 40px;
+  font-size: large;
+  font-weight: 350;
+}
+.designer{
+  background-image: url('images/plain-white-background.jpg');
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 5px 5px whitesmoke;
+  max-width:650px;
+  height: 200px;
+  position: relative;
+  top: -204px;
+  left: 850px;
+}
+.designer:hover{
+  box-shadow: 0px 0px 10px 10px whitesmoke;
+  position: relative;
+  top: -201px;
+  left: 855px;
+}
+.designer p{
+  padding-top: 10px;
+  padding-left: 40px;
+  font-size: large;
+  font-weight: 350;
+}
+.designer h3{
+  padding-top: 10px;
+  padding-left: 40px;
+}
+.academician{
+  background-image: url('images/plain-white-background.jpg');
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 5px 5px whitesmoke;
+  max-width:650px;
+  height: 200px;
+  position: relative;
+  top: -145px;
+  left: 70px;
+}
+.academician:hover{
+  box-shadow: 0px 0px 10px 10px whitesmoke;
+  position: relative;
+  top: -142px;
+  left: 75px;
+}
+.academician p{
+  padding-top: 10px;
+  padding-left: 40px;
+  font-size: large;
+  font-weight: 380;
+}
+.academician h3{
+  padding-top: 10px;
+  padding-left: 40px;
+}
+.about h1{
+  text-align: center;
+  color: lightskyblue;
+}
+.aboutall{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.about1 p{
+  margin-left: 60px;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: large;
+  font-weight: 380;
+
+}
+.about1 a, .about3 a{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: large;
+  font-weight: 380;
+
+}
+.about1 button, .about3 button{
+  background-color: lightskyblue;
+  border-color: lightskyblue;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 20px 0px 0px 60px;
+}
+.about2 img{
+  max-width: 300px;
+  margin-left: 100px;
+}
+.about3 p{
+  margin-left: 60px;
+  margin-top: 10px;
+  padding: 15px;
+  font-size: large;
+  font-weight: 380;
+}
+.contacts h1{
+  text-align: center;
+  color: lightskyblue;
+}
+.name input[type=text]{
+  position: relative;
+  top: 30px;
+  left: 70px;
+  padding: 20px 450px 20px 10px;
+  border: none;
+  box-shadow: 2px 2px 10px 10px whitesmoke;
+  font-size: large;
+}
+#lastname{
+  margin-left: 100px;
+}
+.name input[type=text]::placeholder,.gmail input[type=email]::placeholder,.txt textarea::placeholder{
+  font-size: larger;
+  font-weight: 600;
+}
+.gmail{
+  position: relative;
+  top: 50px; 
+  left: 70px;
+}
+.gmail input[type=email]{
+  padding: 20px 450px 20px 10px;
+  border: none;
+  box-shadow: 2px 2px 10px 10px whitesmoke;
+  font-size: large;
+}
+.txt {
+  position: relative;
+  top: 120px; 
+  left: 70px;
+}
+.txt textarea{
+  padding: 20px 50px 20px 10px;
+  width: 93%;
+  height: 450px;
+  resize: none;
+  border: none;
+  box-shadow: 2px 2px 10px 10px whitesmoke;
+  font-size: larger;
+  font-weight: 500;
+}
+.submit {
+  position: relative;
+  top: 150px;
+  left: 100px;
+}
+.submit button{
+  background-color: lightskyblue;
+  font-size: larger;
+  border-color: lightskyblue;
+  border-radius: 15px;
+  padding: 17px 10px ;
+  font-weight: 700;
+}
+.cont{
+  position: relative;
+  top: 200px;
+  background-color: #f8f9fa!important;
+}
+.cont p{
+  text-align: center;
+  font-size: larger;
+  font-weight: 500;
+}
+.footers ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.footers li{
+  padding: 10px;
+}
+.feedback p{
+  margin-top: 150px;
+  margin-left: 650px;
+  font-size: larger;
+  font-weight: 500;
+}
+@media only screen and (max-width: 768px) {
+  .homepage{
+    background-image: url('images/front\ end.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ .headers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0px;
+  max-width: 400px;
+ }
+ .headers li{
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: medium;
+  font-weight: 450;
+}
+.developer {
+  position: relative;
+  top: 15px;
+  left: 10px;
+  box-shadow: none;
+ }
+ .developer:hover{
+  position: unset;
+  box-shadow: none;
+}
+ .headers a:hover{
+  font-size: large;
+}
+.designer{
+  position: relative;
+  top: 5px;
+  left: 0px;
+  box-shadow: none;
+}
+.designer:hover{
+  position: unset;
+  box-shadow: none;
+}
+.academician{
+  box-shadow: none;
+  position: relative;
+  top: 0px;
+  left: 10px;
+}
+.academician:hover{
+  box-shadow: none;
+  position: unset;
+}
+.about h1{
+  text-align: center;
+  margin: 0px;
+}
+.about1 p{
+  font-size: large;
+  font-weight: 380;
+  max-width: 370px;
+}
+.aboutall{
+  display: flex;
+  flex-direction: column;
+}
+.about2 img{
+  max-width: 300px;
+  margin-left: 30px;
+}
+.about1 p,.about3 p{
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: large;
+  font-weight: 380;
+}
+.name input[type=text],.gmail input[type=email]{
+  margin: 20px 30px 20px 0px;
+  padding: 10px;
+  width: 270px;
+  border: none;
+  box-shadow: 0px 0px 5px 5px whitesmoke;
+}
+#lastname{
+  margin: 0px;
+}
+.name input[type=text]::placeholder,.gmail input[type=email]::placeholder {
+  font-size: large;
+  font-weight: 600;
+}
+.txt {
+  position: relative;
+  top: 60px; 
+  left: 35px;
+}
+.txt textarea{
+  padding: 10px;
+  width: 83%;
+  height: 350px;
+  resize: none;
+  border: none;
+  font-size: large;
+  font-weight: 400;
+  box-shadow: 0px 0px 5px 5px whitesmoke;
+}
+.cont p{
+  font-size: large;
+  font-weight: 400;
+}
+.feedback p{
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+  font-size: large;
+  font-weight: 400;
+}
+}
+@media only screen and (max-width: 330px) {
+  .homepage{
+    background-image: url('images/front\ end.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 390px;
+  }
+.headers{
+  max-width: 300px;
+}
+.headers a:hover{
+  font-size: large;
+}
+.developer {
+  position: relative;
+  top: 5px;
+  left: 3px;
+  box-shadow: none;
+ }
+ 
+ .developer p{
+  padding-top: 5px;
+  padding-left: 15px;
+  font-size: large;
+  font-weight: 350;
+}
+.developer:hover{
+  position: unset;
+  box-shadow: none;
+}
+.designer p{
+  padding-top: 5px;
+  padding-left: 15px;
+  font-size: large;
+  font-weight: 350;
+}
+.designer:hover{
+  position: unset;
+  box-shadow: none;
+}
+.academician{
+  box-shadow: none;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.academician p{
+  position: relative;
+  left: -25px;
+}
+.academician:hover{
+  box-shadow: none;
+  position: unset;
+}
+.about2 img{
+  max-width: 300px;
+  margin-left: 10px;
+}
+.about1 p,.about3 p{
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: large;
+  font-weight: 380;
+}
+.name input[type=text],.gmail input[type=email]{
+  margin: 20px 30px 20px -35px;
+  padding: 10px;
+  width: 270px;
+  border: none;
+  box-shadow: 0px 0px 5px 5px whitesmoke;
+}
+#lastname{
+  position: relative;
+  left: 35px;
+}
+.txt textarea{
+  box-shadow: 0px 0px 5px 5px whitesmoke;
+}
+}
